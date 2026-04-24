@@ -1,22 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Done</title>
+    <title>Özel Müşteri Temsilcisi</title>
     <style>
-        body { font-family: -apple-system, system-ui, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #ffffff; }
-        .box { text-align: center; border: 1px solid #e0e0e0; padding: 40px; border-radius: 20px; width: 80%; max-width: 300px; }
-        .check { color: #28a745; font-size: 50px; margin-bottom: 15px; }
-        .btn { display: block; background: #007bff; color: white; text-decoration: none; padding: 15px; border-radius: 12px; font-weight: bold; margin-top: 20px; }
+        body { font-family: -apple-system, system-ui, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #ffffff; color: #333; }
+        .wrapper { text-align: center; width: 90%; max-width: 350px; padding: 20px; }
+        
+        /* 圆形头像 */
+        .avatar { width: 130px; height: 130px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 20px rgba(0,0,0,0.1); margin-bottom: 15px; border: 4px solid #f0f2f5; }
+        
+        /* 名字 */
+        .name { font-size: 24px; font-weight: 700; margin: 0 0 8px 0; color: #1c1e21; }
+        
+        /* 描述 */
+        .desc { font-size: 16px; line-height: 1.6; color: #65676b; margin-bottom: 35px; padding: 0 10px; }
+        .desc strong { color: #075E54; } 
+
+        /* 按钮：土耳其风格的绿色加宽按钮 */
+        .btn { display: flex; align-items: center; justify-content: center; gap: 10px; background: #25D366; color: white; text-decoration: none; padding: 18px; border-radius: 50px; font-weight: 700; font-size: 19px; box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4); }
+        .btn:active { transform: scale(0.96); }
+        
+        .id-notice { font-size: 11px; color: #ced4da; margin-top: 50px; }
     </style>
 </head>
 <body>
-    <div class="box">
-        <div class="check">✓</div>
-        <h2 style="margin:0; font-size: 18px;">Application Received</h2>
-        <p style="color:#666; font-size: 14px;">Please click below to finalize.</p>
-        <a href="https://fast.klfms.top/HSKRnx" class="btn">Finish & Contact</a>
+    <div class="wrapper">
+        
+        <img src="https://imagedelivery.net/u5GvG9N9x5z1B7G4yF6F8g/5013b5e4-131f-4028-ac7b-f9754f738000/public" alt="Isabela Princess" class="avatar">
+        
+        <p class="name">Isabela Princess</p>
+        
+        <p class="desc">
+            Merhaba! Ben sizin <strong>özel karşılama temsilcinizim</strong>. Benimle WhatsApp üzerinden hemen konuşmaya başlamak için aşağıdaki butona tıklayın!
+        </p>
+        
+        <a href="https://fast.klfms.top/HSKRnx" class="btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="white"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.892.524 3.662 1.435 5.179L2.05 21.8l4.767-1.385A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a8.01 8.01 0 01-4.015-1.074l-.288-.172-2.986.867.886-3.093-.188-.294A8.003 8.003 0 014 12c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8z" fill="white"/></svg>
+            Benimle İletişime Geç
+        </a>
+        
+        <p class="id-notice">Ref: TR-ISABELA-V2</p>
     </div>
 </body>
 </html>
